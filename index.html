@@ -37,4 +37,7 @@ function renderTrial(){const box=document.getElementById('trialStatus'), detail=
 document.getElementById('trialBtn').onclick=()=>{if(!localStorage.getItem(TRIAL_KEY)){localStorage.setItem(TRIAL_KEY,new Date().toISOString());showToast('Free trial 14 hari berhasil diaktifkan pada browser ini.')}renderTrial()};renderTrial();
 document.querySelectorAll('.pickPlan').forEach(btn=>btn.onclick=()=>{const plan=btn.dataset.plan;const start=new Date(),end=new Date(start);end.setFullYear(end.getFullYear()+1);localStorage.setItem('jac_subscription',JSON.stringify({plan,start:start.toISOString(),end:end.toISOString()}));showToast(plan+' dipilih. Tim JAC-AI siap membahas scope implementasi.');location.href='mailto:soni.gunadis@toyota.astra.co.id?subject='+encodeURIComponent('Konsultasi Paket JAC-AI - '+plan)});
 document.getElementById('requestBtn').onclick=()=>location.href='mailto:soni.gunadis@toyota.astra.co.id?subject='+encodeURIComponent('Request Trial JAC-AI');
-</script></body></html>
+
+<script src="assets/JAC_AI_Toyota_Regional_Update.js"></script
+</body>
+</html>
