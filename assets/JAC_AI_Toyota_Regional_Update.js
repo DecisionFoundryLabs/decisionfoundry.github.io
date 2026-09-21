@@ -6,10 +6,10 @@
 (() => {
   'use strict';
 
-  const EMAIL = 'soni.gunadis@toyota.astra.co.id';
+  const EMAIL = 'soni.gunadis@toyota.astra.co.id'; 'eko.leksono@toyota.astra.co.id'; 'septiawan.janarko@toyota.astra.co.id';
   const WA_NUMBER = '6289605424423';
   const SUBJECT = 'Ketertarikan Trial dan Demo JAC-AI';
-  const MESSAGE = `Dear Pak Soni,
+  const MESSAGE = `Dear Pak Soni dan team,
 
 Perkenalkan, saya tertarik untuk mengetahui lebih lanjut mengenai pengembangan JAC-AI sebagai Enterprise Decision Intelligence Platform untuk perusahaan kami.
 
